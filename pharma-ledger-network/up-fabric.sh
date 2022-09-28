@@ -2,6 +2,8 @@ sudo ./net-pln.sh down
 sudo ./net-pln.sh up
 sudo ./net-pln.sh createChannel
 
+sudo ./organizations/ccp-generate.sh
+
 # install npm dependencies
 echo ======= Instalando dependencias - JS Contract =======
 mydir=`pwd`
